@@ -119,6 +119,11 @@ PRODUCT_PACKAGES += \
     fingerprint.default \
     vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.samsung
 
+# Health
+PRODUCT_PACKAGES += \
+    android.hardware.health@2.1-impl \
+    android.hardware.health@2.1-service
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
