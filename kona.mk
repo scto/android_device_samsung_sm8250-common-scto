@@ -108,6 +108,17 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
+# Fingerprint
+ifneq ($(TARGET_NO_FOD),true)
+PRODUCT_PACKAGES += \
+    vendor.samsung.hardware.biometrics.fingerprint@3.0.vendor
+endif
+
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1-service.samsung \
+    fingerprint.default \
+    vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.samsung
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
