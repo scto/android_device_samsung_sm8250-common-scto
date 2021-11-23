@@ -336,6 +336,7 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.nfc.samsung.rc \
     init.qcom.factory.rc \
+    init.qcom.power.rc \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.qti.fm.sh \
