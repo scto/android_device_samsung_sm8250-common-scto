@@ -1,6 +1,6 @@
 [
   {
-    "repository": "android_kernel_samsung_sm8250",
-    "target_path": "kernel/samsung/sm8250"
+    "repository": "android_kernel_samsung_s20fe",
+    "target_path": "kernel/samsung/r8q"
   }
 ]
